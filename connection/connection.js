@@ -2,7 +2,7 @@
 const mongoose = require('mongoose')
 
 // const uri = 'mongodb://localhost/Real-Eastate'
-const uri = 'mongodb+srv://vkchauhangoldy:vkchauhangoldy@realeastate.t9ei3ec.mongodb.net/Real-Eastate?retryWrites=true&w=majority'
+const uri = database_url
 mongoose.set('strictQuery', true)
 
 function getConection() {
