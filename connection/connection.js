@@ -2,7 +2,7 @@
 const mongoose = require('mongoose')
 
 // const uri = 'mongodb://localhost/Real-Eastate'
-const uri = database_url
+const uri = process.env.database_url
 mongoose.set('strictQuery', true)
 
 function getConection() {
