@@ -4,7 +4,7 @@ const cors =require('cors');
 
 //Database Connection
 const connect = require('./connection/connection')
-connect()
+// connect()
 const propRouter = require('./routes/route');
 const routes_signup= require("./routes/signup");
 const route_prop= require("./routes/Property");
